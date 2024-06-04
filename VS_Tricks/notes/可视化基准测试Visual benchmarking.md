@@ -1,0 +1,2 @@
+本质上是输出json文件，然后让chrome可视化
+技术上主要基于[[基准测试BENCHMARKING]]中的Timer类

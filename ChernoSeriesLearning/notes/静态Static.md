@@ -6,7 +6,7 @@
 
 **Static variables in a class**: As the variables declared as static are initialized only once as they are allocated space in separate static storage so, the static variables **in a class are shared by the objects.** There can not be multiple copies of the same static variables for different objects. Also because of this reason static variables can not be initialized using constructors：
 - static修饰的变量在类中时，该变量将被该类的所有对象共享，因此，该变量不允许在构造函数中被初始化
-- static修饰的变量在类中时，允许使用```typeName className::varName```的方式初始化该变量（注意初始化需要在main外）
+- static修饰的变量在类中时，允许使用```typeName className::varName```的方式初始化该变量（注意初始化需要在main外，且必须有构造函数的存在）
 
 ## Static for functions in a class
 

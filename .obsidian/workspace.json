@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,11 +154,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e305d2927cdf0555",
+  "active": "79a5d78b23f111bf",
   "lastOpenFiles": [
-    "VS_Tricks/notes/可视化基准测试Visual benchmarking.md",
-    "ChernoSeriesLearning/notes/单例模式Singleton.md",
     "ChernoSeriesLearning/notes/静态Static.md",
+    "ChernoSeriesLearning/notes/单例模式Singleton.md",
+    "VS_Tricks/notes/可视化基准测试Visual benchmarking.md",
     "ChernoSeriesLearning/notes/未命名.md",
     "ChernoSeriesLearning/notes/String.md",
     "ChernoSeriesLearning/imgs/faster_string_3.png",

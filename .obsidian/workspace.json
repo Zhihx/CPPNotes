@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ChernoSeriesLearning/notes/单例模式Singleton.md",
+                "file": "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ChernoSeriesLearning/notes/单例模式Singleton.md",
+                "file": "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ChernoSeriesLearning/notes/单例模式Singleton.md",
+                "file": "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChernoSeriesLearning/notes/单例模式Singleton.md"
+                "file": "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md"
               }
             }
           },
@@ -154,13 +154,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "79a5d78b23f111bf",
+  "active": "e305d2927cdf0555",
   "lastOpenFiles": [
-    "ChernoSeriesLearning/notes/静态Static.md",
+    "ChernoSeriesLearning/notes/静态分析Static analysis.md",
+    "ChernoSeriesLearning/notes/左值与右值lvalues and rvalues.md",
+    "ChernoSeriesLearning/notes/Track MEMORY ALLOCATIONS in C++.md",
+    "ChernoSeriesLearning/notes/String.md",
     "ChernoSeriesLearning/notes/单例模式Singleton.md",
+    "ChernoSeriesLearning/notes/静态Static.md",
     "VS_Tricks/notes/可视化基准测试Visual benchmarking.md",
     "ChernoSeriesLearning/notes/未命名.md",
-    "ChernoSeriesLearning/notes/String.md",
     "ChernoSeriesLearning/imgs/faster_string_3.png",
     "ChernoSeriesLearning/imgs/faster_string_2.png",
     "ChernoSeriesLearning/imgs/faster_string_1.png",

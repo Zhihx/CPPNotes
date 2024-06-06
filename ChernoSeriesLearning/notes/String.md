@@ -1,7 +1,9 @@
 ## How to make strings faster
 
 C++生成处理字符串，会不断地分配内存，这将降低程序运行速度，解决方法为：
-<mark style="background: #FFB8EBA6;">```const char*``` 与 ```std::string_view```的联用</mark>
+```const char*``` 与 ```std::string_view```的联用
+
+```const char*```是C语言风格的字符串
 
 首先是只使用```std::string```的情况
 ```c++
@@ -108,3 +110,9 @@ int main()
 程序运行结果为：
 ![[faster_string_3.png]]
 在使用C语言风格的字符串```const char*```后，整个程序不涉及到字符串的内存分配问题
+## Small string optimization
+
+用于低于一定长度的字符串来避免过多的内存分配和堆分配(heap allocation)
+小字符串将存储在静态存储区(static buffer)而非堆中
+
+注意：为了让小字符串存储在静态存储区中，在VS中可能需要使用realise模式

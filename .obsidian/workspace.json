@@ -11,12 +11,8 @@
             "id": "e305d2927cdf0555",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c6ad3ff1c227cc99",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md"
-              }
+              "state": {}
             }
           },
           {
@@ -142,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,14 +150,17 @@
   },
   "active": "e305d2927cdf0555",
   "lastOpenFiles": [
-    "ChernoSeriesLearning/notes/静态分析Static analysis.md",
+    "ChernoSeriesLearning/notes/Move Semantics in C++.md",
+    "ChernoSeriesLearning/imgs/move_1.png",
+    "ChernoSeriesLearning/notes/拷贝构造函数.md",
     "ChernoSeriesLearning/notes/左值与右值lvalues and rvalues.md",
+    "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md",
+    "ChernoSeriesLearning/notes/静态分析Static analysis.md",
     "ChernoSeriesLearning/notes/Track MEMORY ALLOCATIONS in C++.md",
     "ChernoSeriesLearning/notes/String.md",
     "ChernoSeriesLearning/notes/单例模式Singleton.md",
     "ChernoSeriesLearning/notes/静态Static.md",
     "VS_Tricks/notes/可视化基准测试Visual benchmarking.md",
-    "ChernoSeriesLearning/notes/未命名.md",
     "ChernoSeriesLearning/imgs/faster_string_3.png",
     "ChernoSeriesLearning/imgs/faster_string_2.png",
     "ChernoSeriesLearning/imgs/faster_string_1.png",
@@ -182,15 +179,12 @@
     "VS_Tricks/notes/断点breakpoint.md",
     "ChernoSeriesLearning/notes/类型双关type punning.md",
     "ChernoSeriesLearning/notes/联合体unions.md",
-    "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md",
     "ChernoSeriesLearning/imgs/virtual_func_3.png",
     "ChernoSeriesLearning/imgs/virtual_func_2.png",
     "ChernoSeriesLearning/imgs/virtual_func_1.png",
     "ChernoSeriesLearning/imgs/virtual_destructors_3.png",
     "ChernoSeriesLearning/imgs/virtual_destructors_2.png",
     "ChernoSeriesLearning/imgs/virtual_destructors_1.png",
-    "ChernoSeriesLearning/imgs/Screenshot 2024-05-22 100821.png",
-    "ChernoSeriesLearning/未命名.md",
     "VS_Tricks/notes",
     "VS_Tricks/imgs",
     "VS_Tricks",

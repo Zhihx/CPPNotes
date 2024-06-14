@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d59bd3a5ab1a895a",
+        "id": "4f499ef5fd9e79e9",
         "type": "tabs",
         "children": [
           {
-            "id": "e305d2927cdf0555",
+            "id": "6298c11902eaac8e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ChernoSeriesLearning/notes/自定义Array.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c6ad3ff1c227cc99",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ChernoSeriesLearning/notes/自定义Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ChernoSeriesLearning/notes/自定义Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ChernoSeriesLearning/notes/自定义Array.md"
+              }
             }
           },
           {
@@ -148,12 +155,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e305d2927cdf0555",
+  "active": "6298c11902eaac8e",
   "lastOpenFiles": [
-    "ChernoSeriesLearning/notes/Move Semantics in C++.md",
+    "静态断言.md",
+    "ChernoSeriesLearning/notes/自定义Array.md",
+    "ChernoSeriesLearning/notes/mem相关函数.md",
+    "ChernoSeriesLearning/notes/关键字const.md",
+    "ChernoSeriesLearning/notes/一些特殊的表达式.md",
+    "ChernoSeriesLearning/notes/断言assert.md",
+    "ChernoSeriesLearning/notes/左值与右值lvalues and rvalues.md",
+    "ChernoSeriesLearning/notes/模版template.md",
+    "ChernoSeriesLearning/notes/移动语义Move Semantics.md",
     "ChernoSeriesLearning/imgs/move_1.png",
     "ChernoSeriesLearning/notes/拷贝构造函数.md",
-    "ChernoSeriesLearning/notes/左值与右值lvalues and rvalues.md",
     "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md",
     "ChernoSeriesLearning/notes/静态分析Static analysis.md",
     "ChernoSeriesLearning/notes/Track MEMORY ALLOCATIONS in C++.md",
@@ -173,12 +187,6 @@
     "ChernoSeriesLearning/notes/预编译头文件Precompiled headers.md",
     "ChernoSeriesLearning/notes/元组tuple.md",
     "VS_Tricks/notes/查看变量地址.md",
-    "VS_Tricks/notes/基准测试BENCHMARKING.md",
-    "ChernoSeriesLearning/notes/类型转换casting.md",
-    "ChernoSeriesLearning/notes/虚函数virtual functions.md",
-    "VS_Tricks/notes/断点breakpoint.md",
-    "ChernoSeriesLearning/notes/类型双关type punning.md",
-    "ChernoSeriesLearning/notes/联合体unions.md",
     "ChernoSeriesLearning/imgs/virtual_func_3.png",
     "ChernoSeriesLearning/imgs/virtual_func_2.png",
     "ChernoSeriesLearning/imgs/virtual_func_1.png",

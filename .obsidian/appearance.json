@@ -1,10 +1,10 @@
 {
   "accentColor": "#ffa200",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "monospaceFontFamily": "JetBrains Mono NL,仓耳玄三03",
   "textFontFamily": "Bookerly Display,仓耳玄三03",
   "interfaceFontFamily": "Bookerly Display,仓耳玄三03",
-  "baseFontSize": 14,
+  "baseFontSize": 18,
   "enabledCssSnippets": [
     "image"
   ]

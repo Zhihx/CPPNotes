@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VS_Tricks/notes/预编译头文件Precompiled headers.md",
+                "file": "VS Tricks/notes/预编译头文件Precompiled headers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VS_Tricks/notes/预编译头文件Precompiled headers.md",
+                "file": "VS Tricks/notes/预编译头文件Precompiled headers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VS_Tricks/notes/预编译头文件Precompiled headers.md",
+                "file": "VS Tricks/notes/预编译头文件Precompiled headers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VS_Tricks/notes/预编译头文件Precompiled headers.md"
+                "file": "VS Tricks/notes/预编译头文件Precompiled headers.md"
               }
             }
           },
@@ -157,11 +157,11 @@
   },
   "active": "79a5d78b23f111bf",
   "lastOpenFiles": [
-    "cmake learning",
-    "VS_Tricks/notes/查看变量地址.md",
-    "VS_Tricks/notes/断点breakpoint.md",
-    "VS_Tricks/notes/基准测试BENCHMARKING.md",
-    "VS_Tricks/notes/可视化基准测试Visual benchmarking.md",
+    "Cmake Learning",
+    "VS Tricks/notes/查看变量地址.md",
+    "VS Tricks/notes/断点breakpoint.md",
+    "VS Tricks/notes/基准测试BENCHMARKING.md",
+    "VS Tricks/notes/可视化基准测试Visual benchmarking.md",
     "C++ Learning/notes/C++标准库.md",
     "类Class.md",
     "C++ Learning/notes/关键字const.md",
@@ -182,7 +182,7 @@
     "C++ Learning/notes/指针Pointer.md",
     "C++ Learning/notes/操作符重载.md",
     "C++ Learning/notes/断言assert.md",
-    "VS_Tricks/notes/预编译头文件Precompiled headers.md",
+    "VS Tricks/notes/预编译头文件Precompiled headers.md",
     "C++ Learning/imgs/copy_constructor.png",
     "C++ Learning/imgs/move_1.png",
     "C++ Learning/imgs/faster_string_3.png",
@@ -193,9 +193,9 @@
     "C++ Learning/imgs/virtual_func_1.png",
     "C++ Learning/imgs/virtual_destructors_3.png",
     "C++ Learning/imgs/virtual_destructors_2.png",
-    "VS_Tricks/notes",
-    "VS_Tricks/imgs",
-    "VS_Tricks",
+    "VS Tricks/notes",
+    "VS Tricks/imgs",
+    "VS Tricks",
     "C++ Learning/notes",
     "C++ Learning/imgs",
     "C++ Learning"

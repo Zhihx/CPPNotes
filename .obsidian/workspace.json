@@ -155,8 +155,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "79a5d78b23f111bf",
+  "active": "6298c11902eaac8e",
   "lastOpenFiles": [
+    "C++ Learning/notes/拷贝构造函数.md",
+    "VS Tricks/notes/预编译头文件Precompiled headers.md",
     "Cmake Learning",
     "VS Tricks/notes/查看变量地址.md",
     "VS Tricks/notes/断点breakpoint.md",
@@ -178,11 +180,9 @@
     "C++ Learning/notes/单例模式Singleton.md",
     "C++ Learning/notes/CPP返回多个返回值的实现方式.md",
     "C++ Learning/notes/左值与右值lvalues and rvalues.md",
-    "C++ Learning/notes/拷贝构造函数.md",
     "C++ Learning/notes/指针Pointer.md",
     "C++ Learning/notes/操作符重载.md",
     "C++ Learning/notes/断言assert.md",
-    "VS Tricks/notes/预编译头文件Precompiled headers.md",
     "C++ Learning/imgs/copy_constructor.png",
     "C++ Learning/imgs/move_1.png",
     "C++ Learning/imgs/faster_string_3.png",

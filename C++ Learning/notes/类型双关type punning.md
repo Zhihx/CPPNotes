@@ -1,5 +1,6 @@
 ## Level1
 ### 用类型2解释类型1
+
 ```c++
 #include <iostream>
 int main() {
@@ -10,6 +11,7 @@ int main() {
 }
 ```
 ### 使用指针将结构体数组化
+
 ```c++
 #include <iostream>
 struct Entity

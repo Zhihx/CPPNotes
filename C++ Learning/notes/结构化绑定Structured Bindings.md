@@ -1,7 +1,7 @@
 #cpp17
 
 为了使用结构化绑定，需要确保设置:
-<mark style="background: #FFB8EBA6;">Properties-C/C++-Language-C++ Language Standard(ISO C++ 17 Standard)</mark>
+Properties-C/C++-Language-C++ Language Standard(ISO C++ 17 Standard)
 ```c++
 #include <iostream>
 #include <string>

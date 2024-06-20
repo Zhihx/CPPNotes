@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-void* operator new(size_t size)
+void* operator new(size_t size) // 关键在于重载new表达式
 {
 	std::cout << "Allocating " << size << " bytes\n" << std::endl;
 	return malloc(size);

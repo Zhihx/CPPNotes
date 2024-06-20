@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ChernoSeriesLearning/notes/String.md",
+                "file": "VS_Tricks/notes/预编译头文件Precompiled headers.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 393.5
   },
   "right": {
     "id": "c6ad3ff1c227cc99",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ChernoSeriesLearning/notes/String.md",
+                "file": "VS_Tricks/notes/预编译头文件Precompiled headers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ChernoSeriesLearning/notes/String.md",
+                "file": "VS_Tricks/notes/预编译头文件Precompiled headers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChernoSeriesLearning/notes/String.md"
+                "file": "VS_Tricks/notes/预编译头文件Precompiled headers.md"
               }
             }
           },
@@ -155,49 +155,49 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6298c11902eaac8e",
+  "active": "79a5d78b23f111bf",
   "lastOpenFiles": [
-    "ChernoSeriesLearning/notes/C++ 标准库.md",
-    "ChernoSeriesLearning/notes/C++标准库数据类型.md",
-    "ChernoSeriesLearning/notes/std_any.md",
-    "ChernoSeriesLearning/notes/虚函数virtual functions.md",
-    "ChernoSeriesLearning/notes/自定义Array与Vector.md",
-    "ChernoSeriesLearning/notes/结构化绑定Structured Bindings.md",
-    "静态断言.md",
-    "ChernoSeriesLearning/notes/Iterators迭代器.md",
-    "ChernoSeriesLearning/notes/typename关键字.md",
-    "ChernoSeriesLearning/notes/Difference_using vs typedef.md",
-    "ChernoSeriesLearning/notes/const关键字.md",
-    "ChernoSeriesLearning/notes/Static关键字.md",
-    "ChernoSeriesLearning/notes/模板template.md",
-    "ChernoSeriesLearning/notes/移动语义Move Semantics.md",
-    "ChernoSeriesLearning/notes/Track MEMORY ALLOCATIONS in C++.md",
-    "ChernoSeriesLearning/notes/mem相关函数.md",
-    "ChernoSeriesLearning/notes/一些特殊的表达式.md",
-    "ChernoSeriesLearning/notes/断言assert.md",
-    "ChernoSeriesLearning/notes/左值与右值lvalues and rvalues.md",
-    "ChernoSeriesLearning/imgs/move_1.png",
-    "ChernoSeriesLearning/notes/拷贝构造函数.md",
-    "ChernoSeriesLearning/notes/虚析构函数virtual destructors.md",
-    "ChernoSeriesLearning/notes/静态分析Static analysis.md",
-    "ChernoSeriesLearning/notes/String.md",
-    "ChernoSeriesLearning/notes/单例模式Singleton.md",
+    "cmake learning",
+    "VS_Tricks/notes/查看变量地址.md",
+    "VS_Tricks/notes/断点breakpoint.md",
+    "VS_Tricks/notes/基准测试BENCHMARKING.md",
     "VS_Tricks/notes/可视化基准测试Visual benchmarking.md",
-    "ChernoSeriesLearning/imgs/faster_string_3.png",
-    "ChernoSeriesLearning/imgs/faster_string_2.png",
-    "ChernoSeriesLearning/imgs/faster_string_1.png",
-    "ChernoSeriesLearning/notes/多线程std_async.md",
-    "ChernoSeriesLearning/imgs/virtual_func_3.png",
-    "ChernoSeriesLearning/imgs/virtual_func_2.png",
-    "ChernoSeriesLearning/imgs/virtual_func_1.png",
-    "ChernoSeriesLearning/imgs/virtual_destructors_3.png",
-    "ChernoSeriesLearning/imgs/virtual_destructors_2.png",
-    "ChernoSeriesLearning/imgs/virtual_destructors_1.png",
+    "C++ Learning/notes/C++标准库.md",
+    "类Class.md",
+    "C++ Learning/notes/关键字const.md",
+    "C++ Learning/notes/mem相关函数.md",
+    "C++ Learning/notes/迭代器Iterators.md",
+    "C++ Learning/notes/关键字Static.md",
+    "C++ Learning/notes/关键字typename.md",
+    "C++ Learning/notes/字符串String.md",
+    "C++ Learning/notes/std_variant.md",
+    "C++ Learning/notes/std_optional.md",
+    "C++ Learning/notes/std_any.md",
+    "C++ Learning/notes/C++内存分配的简单技巧.md",
+    "C++ Learning/notes/多线程std_async.md",
+    "C++ Learning/notes/单例模式Singleton.md",
+    "C++ Learning/notes/CPP返回多个返回值的实现方式.md",
+    "C++ Learning/notes/左值与右值lvalues and rvalues.md",
+    "C++ Learning/notes/拷贝构造函数.md",
+    "C++ Learning/notes/指针Pointer.md",
+    "C++ Learning/notes/操作符重载.md",
+    "C++ Learning/notes/断言assert.md",
+    "VS_Tricks/notes/预编译头文件Precompiled headers.md",
+    "C++ Learning/imgs/copy_constructor.png",
+    "C++ Learning/imgs/move_1.png",
+    "C++ Learning/imgs/faster_string_3.png",
+    "C++ Learning/imgs/faster_string_2.png",
+    "C++ Learning/imgs/faster_string_1.png",
+    "C++ Learning/imgs/virtual_func_3.png",
+    "C++ Learning/imgs/virtual_func_2.png",
+    "C++ Learning/imgs/virtual_func_1.png",
+    "C++ Learning/imgs/virtual_destructors_3.png",
+    "C++ Learning/imgs/virtual_destructors_2.png",
     "VS_Tricks/notes",
     "VS_Tricks/imgs",
     "VS_Tricks",
-    "ChernoSeriesLearning/notes",
-    "ChernoSeriesLearning/imgs",
-    "ChernoSeriesLearning"
+    "C++ Learning/notes",
+    "C++ Learning/imgs",
+    "C++ Learning"
   ]
 }

@@ -1,5 +1,6 @@
 #技巧
 ## 使用结构体
+
 ```c++
 #include <iostream>
 #include <string>
@@ -20,6 +21,7 @@ int main()
 }
 ```
 ## 使用tuple
+
 具体使用方式可以参考[[元组tuple]]
 ```c++
 #include <iostream>
@@ -38,6 +40,7 @@ int main()
 }
 ```
 ## 使用结构化绑定
+
 [[结构化绑定Structured Bindings]]属于c++17的特性，当函数的返回值存在多种返回值类型的情况时，可以使用
 ```c++
 auto [var1, var2] = FuncReturnMultipleType();

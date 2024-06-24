@@ -1,22 +1,27 @@
-首先先明确一下堆、栈上定义数组的不同点：
+
 栈上定义数组的方式为：
+
 ```c++
 int array[5];
-int array[] = {1, 2, 3, 4, 5};
+int array[] = {1, 2, 3, 4, 5}; // 通过初始化的元素个数自动确定数组的大小
 
 const unsigned size = 5; // 指定size时需要确保编译器在编译时可以确定
 constexpr int size = 5; // 因此可以使用字面量、const、constexpr
 int array[size];
 ```
+
 堆上定义数组的方式为：
+
 ```c++
 int size = 5;
 int* heapArray = new int[size];
 delete[] heapArray;
 ```
+
 栈上定义数组时，数组的长度必须在编译时就已经确定，因此必须使用字面量或者是被```const```、```constexpr```修饰的不可修改的变量。相反，堆上确定的数组长度可以不需要再编译时确定
 
 C++还提供了一种标准数组类，该标准数组类的特点是长度不能像[[C++标准库数据类型#Vector]]一样可以灵活变化，其使用方法为：
+
 ```c++
 #include <array>
 std::array<int, 10> collection;
@@ -25,12 +30,12 @@ for (int i : collection) // range for-loop
 	std::cout << collection[i] << std::endl;
 }
 ```
----
 ## 自定义Array（栈）
+
 自定义Array类，该类可以满足的功能有：
 - 自定义Array中元素的数据类型，Array元素个数（通过使用[[模板template]]），并返回元素个数
 - 初始化Array中的所有元素
-- 通过索引访问Array中的元素（通过[[运算符重载]]），并判断索引的有效性（通过[[断言assert#静态断言]]）
+- 通过索引访问Array中的元素（通过[[操作符重载]]），并判断索引的有效性（通过[[断言assert#静态断言]]）
 
 ```c++
 #include <iostream>
@@ -71,7 +76,8 @@ int main()
 ```
 ## 自定义Vector
 
-```vector.h```
+vector.h
+
 ```c++
 #pragma once
 
@@ -171,7 +177,8 @@ private:
 };
 ```
 
-```main.cpp```
+main.cpp
+
 ```c++
 #include <iostream>
 

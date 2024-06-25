@@ -1,9 +1,9 @@
 {
   "accentColor": "#ffa200",
   "theme": "obsidian",
-  "monospaceFontFamily": "JetBrains Mono NL,仓耳玄三03",
-  "textFontFamily": "Playwrite AU TAS,仓耳玄三03",
-  "interfaceFontFamily": "Playwrite AU TAS,仓耳玄三03",
+  "monospaceFontFamily": "JetBrains Mono NL,仓耳玄三03,TsangerXuanSan03",
+  "textFontFamily": "Playwrite AU TAS,仓耳玄三03,TsangerXuanSan03",
+  "interfaceFontFamily": "Playwrite AU TAS,TsangerXuanSan03",
   "baseFontSize": 18,
   "enabledCssSnippets": [
     "image"

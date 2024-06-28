@@ -1,16 +1,16 @@
 
-栈上定义数组的方式为：
+栈（stack）上定义数组的方式为：
 
 ```c++
-int array[5];
-int array[] = {1, 2, 3, 4, 5}; // 通过初始化的元素个数自动确定数组的大小
+int array[5]; // 指定其中的元素个数
+int array[] = {1, 2, 3, 4, 5}; // 不指定其中的元素个数，通过初始化的元素个数自动确定数组的大小
 
 const unsigned size = 5; // 指定size时需要确保编译器在编译时可以确定
 constexpr int size = 5; // 因此可以使用字面量、const、constexpr
 int array[size];
 ```
 
-堆上定义数组的方式为：
+堆（heap）上定义数组的方式为：
 
 ```c++
 int size = 5;
@@ -96,14 +96,14 @@ public:
 		delete[] m_Data;
 	}
 
-	void PushBack(const T& value)
+	void PushBack(const T& value) // version1: 常量左值引用
 	{
 		if (m_Size >= m_Capacity)
 			ReAlloc(m_Capacity + m_Capacity / 2);
 		m_Data[m_Size] = value;
 		m_Size++;
 	}
-	void PushBack(T&& value)
+	void PushBack(T&& value) // version2: 右值引用
 	{
 		if (m_Size >= m_Capacity)
 			ReAlloc(m_Capacity + m_Capacity / 2);
@@ -172,8 +172,8 @@ private:
 private:
 	T* m_Data = nullptr;
 
-	size_t m_Size = 0;
-	size_t m_Capacity = 0;
+	size_t m_Size = 0; // vector存放的元素个数
+	size_t m_Capacity = 0; // vector允许存放的元素个数
 };
 ```
 

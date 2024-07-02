@@ -1,0 +1,2 @@
+auto关键字不包括const与reference
+discard

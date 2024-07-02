@@ -4,6 +4,7 @@
 "streams is the interface for reading and writing data" —— 流即是读写数据的界面
 "streams move data from one place to another" —— 流可以移动数据
 
+---
 ## cin与cout
 
 cin是 std::istream 的一个实例
@@ -23,8 +24,16 @@ Output streams (O)
 	○ ex. writing out something to the console (```std::cout```) 
 	○ primary operator: << (called the insertion operator)
 
-注意，```std::cin```会根据数据中的whitespace分隔数据，在某些情况下会导致程序无法达成预想中的目标
-（具体详见cs106L stream一节最后的例子）
+### std::cin的若干注意事项
+
+cin will read up to whitespace
+cin会按照whitespace分隔buffer中的内容
+
+Trash in the buffer will make cin not prompt user for input at right time
+buffer中错误的内容会导致std::cin不会按照正确的时机读取用户输入
+
+When cin fails, all feature cin operations fail too.
+当cin失败时，后续的cin调用也会失败
 ## stringstream
 
 stringstream 的使用要用include```sstream```头文件
@@ -35,10 +44,33 @@ getline函数
 std::istream& getline(std::istream& is, std::string& str, char delim)
 ```
 
-读取一个```istream```的引用，直到遇到分隔符```delim```，将```istream```中的数据存储到```str```中（要注意的是，gteline函数也会返回分隔符）
+读取一个```istream```实例的引用，直到遇到分隔符```delim```，将```istream```或buffer中的数据存储到```str```中
 
-在[[操作符重载#输出操作符的重载]]中，可以看出都是按引用传递，按引用返回的
+getline consumes whitespace（```delim```），具体来说getline在读取buffer中的内容时会将buffer的position pointer移动到whitespace上（注意whitespace并不会作为```str```的内容）
+因此，getline的使用需要考虑到buffer的position pointer的位置：
 
+```c++
+#include <iostream>
+#include <sstream>
+#include <string>
+
+int main()
+{
+    std::string str1, str2;
+    std::istringstream iss("16.9ounces\n 20");
+    
+    iss >> str1; // 执行后buffer的position pointer指向\n之前 (cin doesn't consume whitespace)
+    std::getline(iss, str2); // 执行后position pointer指向\n（getline consumes whitespace）
+    
+    std::cout << str1 << std::endl;
+    std::cout << str2 << std::endl;
+    
+}
+```
+
+因此上述程序的执行结果为
+str1: 16.9ounces
+str2:(empty，什么都没有，因为whitespace不作为内容输出)
 ## std::endl与\n的区别
 
 ```std::endl```告诉缓存区（intermediate buffer）立马刷新

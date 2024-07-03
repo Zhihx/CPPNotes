@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++ Learning/notes/指针Pointer.md",
+                "file": "C++ Learning/notes/流stream.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c6ad3ff1c227cc99",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ Learning/notes/指针Pointer.md",
+                "file": "C++ Learning/notes/流stream.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++ Learning/notes/指针Pointer.md",
+                "file": "C++ Learning/notes/流stream.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ Learning/notes/指针Pointer.md"
+                "file": "C++ Learning/notes/流stream.md"
               }
             }
           },
@@ -157,10 +158,13 @@
   },
   "active": "6298c11902eaac8e",
   "lastOpenFiles": [
-    "C++ Learning/notes/移动语义Move Semantics.md",
-    "C++ Learning/notes/结构体Struct.md",
     "C++ Learning/notes/迭代器Iterators.md",
     "C++ Learning/notes/C++标准库数据类型.md",
+    "Git Learning/未命名.md",
+    "C++ Learning/notes/指针Pointer.md",
+    "Git Learning",
+    "C++ Learning/notes/移动语义Move Semantics.md",
+    "C++ Learning/notes/结构体Struct.md",
     "C++ Learning/notes/流stream.md",
     "C++ Learning/notes/对比using vs typedef.md",
     "C++ Learning/notes/结构化绑定Structured Bindings.md",
@@ -176,13 +180,11 @@
     "C++ Learning/notes/单例模式Singleton.md",
     "C++ Learning/notes/多线程std_async.md",
     "C++ Learning/notes/左值与右值lvalues and rvalues.md",
-    "C++ Learning/notes/指针Pointer.md",
     "C++ Learning/notes/断言assert.md",
     "C++ Learning/notes/构造函数constructor.md",
     "C++ Learning/notes/枚举enum.md",
     "C++ Learning/notes/模板template.md",
     "C++ Learning/notes/类型双关type punning.md",
-    "C++ Learning/notes/类型转换casting.md",
     "Cmake Learning",
     "C++ Learning/imgs/copy_constructor.png",
     "C++ Learning/imgs/move_1.png",

@@ -1,4 +1,3 @@
-
 首先是一些直观上的理解：
 
 "streams is the interface for reading and writing data" —— 流即是读写数据的界面
@@ -7,27 +6,20 @@
 ---
 ## cin与cout
 
-cin是 std::istream 的一个实例
-cout 是 std::ostream 的一个实例
+cin是 std::istream 的一个实例（stream object）
+cout 是 std::ostream 的一个实例（stream object）
 
-Input streams (I)
+```>>``` stream extraction operator
+```<<``` stream insertion operator
 
-● a way to read data from a source  一种从“源”读取数据的方式
-	○ Are inherited from ```std::istream```  
-	○ ex. reading in something from the console (```std::cin```) 
-	○ primary operator: >> (called the extraction operator)
+### stream extraction operator
 
-Output streams (O)
-
-● a way to write data to a destination  一种将数据写入“目标”的数据
-	○ Are inherited from ```std::ostream``` 
-	○ ex. writing out something to the console (```std::cout```) 
-	○ primary operator: << (called the insertion operator)
-
+read data one token at a time, rather than one line at a time 
+stream extractor operator 一次只读取一个token，而非读取一行
 ### std::cin的若干注意事项
 
 cin will read up to whitespace
-cin会按照whitespace分隔buffer中的内容
+cin会按照whitespace分隔buffer中的内容（token by token）
 
 Trash in the buffer will make cin not prompt user for input at right time
 buffer中错误的内容会导致std::cin不会按照正确的时机读取用户输入
@@ -72,6 +64,7 @@ int main()
 str1: 16.9ounces
 str2:(empty，什么都没有，因为whitespace不作为内容输出)
 
+getline函数不会让流处于error状态
 ### 什么时候使用stringstream
 
 - Processing string
@@ -91,8 +84,105 @@ str2:(empty，什么都没有，因为whitespace不作为内容输出)
 
 注意fstream会根据数据中的whitespace分隔数据
 
+## stream manipulator
 
+需要include ```iomanip``` 头文件
 
+函数 setw，强迫 ```cout``` 对后续的不足其参数指定的宽度的输出补充正确数量空格（pad its output with the right number of spaces），具体的使用方法为：
+```c++
+std::cout << setw(5) << 10 << std::endl;
+```
+函数setw还可以与```std::left```、```std::right```联用，实现左对齐或右对齐，或者与函数setfill联用来指定填充的字符是什么
 
+hex、dec、oct 指定后续输出为十六进制、十进制、八进制
 
+boolalpha 指定后续输出的布尔值返回```true```或```false```
 
+## stream失败
+
+stream失败有可能是因为多种原因，例如文件不存在，或读取的数据类型与指定的数据类型不一致等等。当stream失败时，后续的读写操作将会自动且静默地失败。
+
+成员函数```.fail()```将会判断一个stream object（例如cin或cout）是否处于error状态
+成员函数```.clear()```将会取消函数的error状态
+
+有时我们希望从一个文件中不断地读取数据，直到读取失败为止，方法一是：
+
+```c++
+std::ifstream input("filename.txt");
+while (true)
+{
+	int value;
+	input >> value;
+	if (input.fail()) break;
+	// do something
+}
+```
+
+方法二将会更加紧凑：
+
+```c++
+std::ifstream input("filename.txt");
+int value;
+while (input >> value)
+{
+	// do something
+}
+```
+
+其基于的原理是，任何的流操作（stream operation）成功时都会返回一个非零值，而失败时则会返回一个零值
+
+## GetInteger函数
+
+该函数的目的主要是为了避免stream extraction operator带来的一些问题
+
+```c++
+#include <iostream>
+#include <string>
+#include <sstream>
+
+std::string GetLine()
+{
+    std::string str;
+    std::getline(std::cin, str);
+    if(std::cin.fail())
+    {
+	    str = "";
+	    std::cin.clear();
+    }
+    return str;
+}
+
+int GetInteger()
+{
+    while(true)
+    {
+        std::stringstream converter;
+        converter << GetLine();
+        
+        int result;
+        if(converter >> result)
+        {
+            char remaining;
+            if(converter >> remaining)
+            {
+                std::cout << "Unexpected character: " << remaining << std::endl;
+            }
+            else
+            {
+                return result;
+            }
+        }
+        else
+        {
+            std::cout << "Please enter an integer." << std::endl;
+        }
+        
+        std::cout << "Retry: " << std::endl;
+    }
+}
+int main()
+{
+    GetInteger();
+}
+
+```

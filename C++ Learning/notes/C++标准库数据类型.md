@@ -8,6 +8,7 @@
 
 注意：
 vector使用索引访问其中的元素时，不会进行bound check。在mac中对于超出边界的访问行为不会阻拦，在windows中则会“安静”地访问失败，例如：
+
 ```c++
 #include <iostream>
 #include <vector>
@@ -18,7 +19,6 @@ int main()
     {
         vec[i] = 3;
     }
-    
     for (size_t i = 0; i < 4; i++)
     {
         std::cout << vec[i] << std::endl; // output 3 3 3 0
@@ -38,4 +38,14 @@ int main()
 ## Iterators 
 
 具体参见[[迭代器Iterators]]
+
+### map iterators 
+
+map 里面的元素实际上是 pair
+
+
+lower bound 
+upper bound 
+
+sort 
 

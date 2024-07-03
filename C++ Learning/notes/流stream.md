@@ -71,6 +71,13 @@ int main()
 因此上述程序的执行结果为
 str1: 16.9ounces
 str2:(empty，什么都没有，因为whitespace不作为内容输出)
+
+### 什么时候使用stringstream
+
+- Processing string
+- Formatting input/output
+- Parsing different types
+
 ## std::endl与\n的区别
 
 ```std::endl```告诉缓存区（intermediate buffer）立马刷新
